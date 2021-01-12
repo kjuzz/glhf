@@ -1,7 +1,7 @@
 # lecture 1: What is computation?
-python中一切都是object，python程序对这些object进行操作，object一定会有type。 基本数据结构int是object, 由基本数据结构组成的class也是object, 这些数据结构和class的实例也是object。type(int) type(5)
-int, float, bool, NoneType.
-type convert 类型转换 int(1.2) float(2)
+1.python中一切都是object，python程序对这些object进行操作，object一定会有type。 基本数据结构int是object, 由基本数据结构组成的class也是object, 这些数据结构和class的实例也是object。type(int) type(5)
+2.int, float, bool, NoneType.
+3.type convert 类型转换 int(1.2) float(2)
 a=1, b=2, c=a+b, print(c), a+=1, print(c)
 # pset0:
 Anaconda是一个科学计算环境，当在电脑上安装好Anaconda以后，就相当于安装好了Python，这里面还有一些常用的库，如numpy，scrip，matplotlib等库。如果你这里没有安装anaconda的话，直接安装了Python，装完Python 想要使用这些库的话 还要在cmd中运行 pip install ...;，就是需要自己不断地添加库。而Anaconda下里面就有许多常用的库，可以直接使用，方便快捷。
